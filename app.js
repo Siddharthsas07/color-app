@@ -4,7 +4,8 @@ var colorApp = angular.module('colorApp', ['ngRoute', 'ngResource']);
 
 // CONTROLLERS
 colorApp.controller('homeController', ['$scope', '$http', function($scope, $http) {
-    var baseUrl = 'http://localhost:8080';
+    var baseUrl = 'http://springbootautoscall-env.us-west-2.elasticbeanstalk.com';
+//    var baseUrl = 'http://localhost:5000';
 //    var baseUrl = 'http://google.com';
 
     $http ({
